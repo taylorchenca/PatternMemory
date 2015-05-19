@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1993/shtml">
+<head>
+<title>Pattern Memory</title>
+<style type="text/css">
+* {margin:0;padding:0;}
+
+html, body
+{
+	background-color: #FFF;
+	overflow: hidden;
+	height: 100%;
+}
+</style>
+<script src="framework.js"></script>
+
+</head>
+<body>
+	<p id="description" style="padding: 20px">In this exercise you will be given a grid of blocks.<br/>
+		Some of the blocks will be highlighted for a moment, and<br/>
+		your task is to reproduce the pattern by clicking on the appropriate blocks.<br/>
+		The exercise will stop after 1 minute.<br/>
+		Please proceed to the rest of the survey when the exercise stops.</p>
+		<input  type ='button' value = 'Start Exercise' onclick='startGame()' />
+<canvas id="canvas" width="500" height="500">
+	Your browser does not support HTML canvas. If you would
+    like to view, please update your browser.
+</canvas>
+<script src="game.js"></script>
+</body>
+</html>
